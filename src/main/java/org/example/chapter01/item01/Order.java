@@ -1,4 +1,4 @@
-package org.example.chapter01;
+package org.example.chapter01.item01;
 
 public class Order {
     private boolean prime;
