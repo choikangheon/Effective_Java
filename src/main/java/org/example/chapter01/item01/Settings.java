@@ -1,5 +1,8 @@
 package org.example.chapter01.item01;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Settings {
     private boolean useAutoSteering;
     private boolean useABS;
@@ -13,8 +16,8 @@ public class Settings {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Settings());
-        System.out.println(new Settings());
-        System.out.println(new Settings());
+
+        List<String> list = new ArrayList<>();
+        List.of("keesun","whiteship");
     }
 }
